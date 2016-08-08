@@ -13,7 +13,7 @@ In my project I read a text file that contains the number of vertices of a graph
 This shows a graph with 7 verices and each integer [i][j] represents the weight of the edge between vertex i and j.
 
 After the sample input is given the program creates the Vertex objects for each vertex read from the file. Each vertex object holds its edges between other vertices in an integer array. So whenever the Prim's algorithm is executed each vertex can access to its edges and the vertices that are also adjacent to these edges.
-The vertex can execute the Prim's algorithm and it prints out the adjacency matrix that has 1's for the edges that are included to the minimum spanning tree. It also prints out the total weight of the graph.
+The vertex can execute the Prim's algorithm and it prints out the adjacency matrix that of the minimum spanning tree. It also prints out the total weight of the graph.
 The format of the output file is like the following:
 
 [Sample Output] (https://github.com/eerbil/graph-algorithms/blob/master/Sample%20Output.png?raw=true)
